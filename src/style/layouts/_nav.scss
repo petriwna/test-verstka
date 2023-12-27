@@ -1,3 +1,35 @@
 .nav {
+  margin-top: 50px;
 
+  &__list {
+    color: var(--color-primary-text-light);
+    font-size: 14px;
+    letter-spacing: -0.14px;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__list-item {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 11px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:active {
+      background-color: var(--color-secondary-point-active);
+      color: var(--color-primary-background);
+    }
+
+    &:active .nav__icon {
+      fill: var(--color-primary-background);
+    }
+  }
+
+  &__icon {
+    fill: var(--color-primary-text-light);
+  }
 }
