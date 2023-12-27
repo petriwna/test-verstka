@@ -14,10 +14,10 @@
     height: 46px;
     display: flex;
     align-items: center;
-    gap: 9px;
-    padding: 11px 5px;
     border-radius: 8px;
     cursor: pointer;
+    padding: 10px;
+    gap: 100px;
 
     &:active {
       background-color: var(--color-secondary-point-active);
@@ -26,10 +26,35 @@
 
     &:active .nav__icon {
       fill: var(--color-primary-background);
+      stroke: var(--color-primary-background);
     }
+
+    &:active .nav__icon--stroken {
+      fill: var(--color-secondary-point-active);
+    }
+  }
+
+  &__list-container {
+    display: flex;
+    gap: 14px;
+  }
+
+  &__text {
+    width: 77px;
+    padding-top: 2px;
   }
 
   &__icon {
     fill: var(--color-primary-text-light);
+    stroke-width: 0;
+    stroke: var(--color-primary-text-light);
+
+    &--stroken {
+      fill: var(--color-primary-background);
+    }
+  }
+
+  &__button {
+    align-self: end;
   }
 }

@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="style/style.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Poppins:wght@400;500;600&display=swap"
+          rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -25,75 +26,87 @@
         <nav class="menu__nav nav">
             <ul class="nav__list">
                 <li class="nav__list-item">
-                    <button class="nav__button button">
-                        <svg class="nav__icon" width="24" height="24">
-                            <use href="public/images/icon.svg#icon-key-square"></use>
-                        </svg>
-                    </button>
-                    <p>Dashboard</p>
+                    <div class="nav__list-container">
+                        <button class="nav__button button">
+                            <svg class="nav__icon nav__icon--stroken" width="24" height="24">
+                                <use href="public/images/icon.svg#icon-key-square"></use>
+                            </svg>
+                        </button>
+                        <p>Dashboard</p>
+                    </div>
                 </li>
                 <li class="nav__list-item">
+                    <div class="nav__list-container">
+                        <button class="nav__button button">
+                            <svg class="nav__icon" width="24" height="24">
+                                <use href="public/images/icon.svg#icon-d-square"></use>
+                            </svg>
+                        </button>
+                        <p class="nav__text">Product</p>
+                    </div>
                     <button class="nav__button button">
-                        <svg class="nav__icon" width="24" height="24">
-                            <use href="public/images/icon.svg#icon-d-square"></use>
-                        </svg>
-                    </button>
-                    <p>Product</p>
-                    <button class="nav__button button">
-                        <svg class="nav__icon" width="16" height="16">
-                            <use href="public/images/icon.svg#icon-chevron"></use>
-                        </svg>
-                    </button>
-                </li>
-                <li class="nav__list-item">
-                    <button class="nav__button button">
-                        <svg class="nav__icon" width="24" height="24">
-                            <use href="public/images/icon.svg#icon-user-square"></use>
-                        </svg>
-                    </button>
-                    <p>Customers</p>
-                    <button class="nav__button button">
-                        <svg class="nav__icon" width="16" height="16">
-                            <use href="public/images/icon.svg#icon-chevron"></use>
+                        <svg class="nav__icon nav__icon--stroken" width="16" height="16">
+                            <use href="public/images/icon.svg#icon-chevron-right"></use>
                         </svg>
                     </button>
                 </li>
                 <li class="nav__list-item">
+                    <div class="nav__list-container">
+                        <button class="nav__button button">
+                            <svg class="nav__icon" width="24" height="24">
+                                <use href="public/images/icon.svg#icon-user-square"></use>
+                            </svg>
+                        </button>
+                        <p class="nav__text">Customers</p>
+                    </div>
                     <button class="nav__button button">
-                        <svg class="nav__icon" width="24" height="24">
-                            <use href="public/images/icon.svg#icon-wallet-money"></use>
-                        </svg>
-                    </button>
-                    <p>Income</p>
-                    <button class="nav__button button">
-                        <svg class="nav__icon" width="16" height="16">
-                            <use href="public/images/icon.svg#icon-chevron"></use>
-                        </svg>
-                    </button>
-                </li>
-                <li class="nav__list-item">
-                    <button class="nav__button button">
-                        <svg class="nav__icon" width="24" height="24">
-                            <use href="public/images/icon.svg#icon-discount-shape"></use>
-                        </svg>
-                    </button>
-                    <p>Promote</p>
-                    <button class="nav__button button">
-                        <svg class="nav__icon" width="16" height="16">
-                            <use href="public/images/icon.svg#icon-chevron"></use>
+                        <svg class="nav__icon nav__icon--stroken" width="16" height="16">
+                            <use href="public/images/icon.svg#icon-chevron-right"></use>
                         </svg>
                     </button>
                 </li>
                 <li class="nav__list-item">
+                    <div class="nav__list-container">
+                        <button class="nav__button button">
+                            <svg class="nav__icon icon-wallet-money nav__icon--stroken" width="24" height="24">
+                                <use href="public/images/icon.svg#icon-wallet-money"></use>
+                            </svg>
+                        </button>
+                        <p class="nav__text">Income</p>
+                    </div>
                     <button class="nav__button button">
-                        <svg class="nav__icon" width="24" height="24">
-                            <use href="public/images/icon.svg#icon-message-question"></use>
+                        <svg class="nav__icon nav__icon--stroken" width="16" height="16">
+                            <use href="public/images/icon.svg#icon-chevron-right"></use>
                         </svg>
                     </button>
-                    <p>Help</p>
+                </li>
+                <li class="nav__list-item">
+                    <div class="nav__list-container">
+                        <button class="nav__button button">
+                            <svg class="nav__icon" width="24" height="24">
+                                <use href="public/images/icon.svg#icon-discount-shape"></use>
+                            </svg>
+                        </button>
+                        <p class="nav__text">Promote</p>
+                    </div>
                     <button class="nav__button button">
-                        <svg class="nav__icon" width="16" height="16">
-                            <use href="public/images/icon.svg#icon-chevron"></use>
+                        <svg class="nav__icon nav__icon--stroken" width="16" height="16">
+                            <use href="public/images/icon.svg#icon-chevron-right"></use>
+                        </svg>
+                    </button>
+                </li>
+                <li class="nav__list-item">
+                    <div class="nav__list-container">
+                        <button class="nav__button button">
+                            <svg class="nav__icon" width="24" height="24">
+                                <use href="public/images/icon.svg#icon-message-question"></use>
+                            </svg>
+                        </button>
+                        <p class="nav__text">Help</p>
+                    </div>
+                    <button class="nav__button button">
+                        <svg class="nav__icon nav__icon--stroken" width="16" height="16">
+                            <use href="public/images/icon.svg#icon-chevron-right"></use>
                         </svg>
                     </button>
                 </li>
