@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 37px 28px;
+  gap: 8px;
+
+  &__icon {
+    fill: var(--color-primary-text-dark);
+  }
+
+  &__text {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 0.26px
+  }
+
+  &__version {
+    color: var(--color-secondary-text-version);
+    font-size: 10px;
+    letter-spacing: -0.1px;
+  }
+}
