@@ -1,8 +1,9 @@
 .container {
+  display: flex;
   width: 100%;
   max-width: 1440px;
   height: 1198px;
   border-radius: 20px;
   margin: 77px auto;
-  background-color: #00B087;
+  background-color: var(--color-secondary-background);
 }
