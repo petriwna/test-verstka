@@ -20,7 +20,7 @@
     gap: 100px;
 
     &:active {
-      background-color: var(--color-secondary-point-active);
+      background-color: var(--color-secondary-pagination-active);
       color: var(--color-primary-background);
     }
 
@@ -30,7 +30,7 @@
     }
 
     &:active .nav__icon--stroken {
-      fill: var(--color-secondary-point-active);
+      fill: var(--color-secondary-pagination-active);
     }
   }
 

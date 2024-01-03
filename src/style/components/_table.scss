@@ -22,33 +22,32 @@
     text-align: left;
     table-layout: fixed;
     width: 100%;
-    padding-left: 38px;
-    padding-right: 38px;
+    padding: 0 37px;
     color: var(--color-secondary-text-darked);
     font-weight: 500;
   }
 
   &__head-cell {
-    padding: 8px 0;
+    padding: 8px 0 14px 0;
 
     &--first {
-      width: 168px;
+      width: 169px;
     }
 
     &--second {
-      width: 128px;
+      width: 130px;
     }
 
     &--third {
-      width: 158px;
+      width: 155px;
     }
 
     &--fourth {
-      width: 204px;
+      width: 205px;
     }
 
     &--fifth {
-      width: 142px;
+      width: 140px;
     }
 
     &--sixth {
@@ -56,34 +55,45 @@
     }
   }
 
+  &__row {
+   height: 65px;
+  }
+
   &__cell {
-    height: 69px;
-    padding: 24px 0px;
+    //height: 69px;
+    //padding: 16px 0px 25px 0;
     letter-spacing: -0.14px;
     border-bottom: 1px solid var(--color-primary-body);
 
     &--first {
-      width: 168px;
+      width: 169px;
     }
 
     &--second {
-      width: 128px;
+      width: 130px;
     }
 
     &--third {
-      width: 158px;
+      width: 155px;
     }
 
     &--fourth {
-      width: 204px;
+      width: 205px;
     }
 
     &--fifth {
-      width: 142px;
+      width: 140px;
     }
+  }
 
-    &--sixth {
-      padding-left: 10px;
-    }
+  &__button {
+    width: 78px;
+    height: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border-radius: 4px;
+    padding-left: 2px;
   }
 }

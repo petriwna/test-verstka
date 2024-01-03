@@ -14,7 +14,7 @@
     margin: 30px 38px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 6px;
   }
 
   &__title {
@@ -28,6 +28,7 @@
     color: var(--color-secondary-text);
     font-weight: 400;
     font-size: 14px;
+    letter-spacing: -0.14px;
   }
 
   &__input {
@@ -56,7 +57,7 @@
 
   &__input .container-table__icon {
     position: absolute;
-    margin: 2px 3px 7px 8px;
+    margin: 2px 2px 7px 6px;
     font-size: 22px;
     z-index: 1;
     color: var(--color-secondary-icon-search);

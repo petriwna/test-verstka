@@ -1,0 +1,17 @@
+.active {
+  color: var(--color-primary-active-light);
+  border: 1px solid var(--color-primary-active-light);
+  background-color: var(--color-primary-active-dark);
+}
+
+.inactive {
+  color: var(--color-primary-inactive);
+  border: 1px solid var(--color-primary-inactive);
+  background-color: var(--color-primary-inactive-lidht);
+}
+
+.visuallyhidden {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+}
