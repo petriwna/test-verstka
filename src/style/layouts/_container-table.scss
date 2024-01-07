@@ -2,16 +2,18 @@
   background-color: var(--color-primary-background);
   width: 100%;
   max-width: 968px;
-  height: 812px;
+  height: auto;
   border-radius: 20px;
 
   &__top {
     display: flex;
-    gap: 8px;
+    gap: 20px;
+    padding: 31px 48px 26px 38px;
+    align-items: center;
+    justify-content: space-between;
   }
 
   &__text {
-    margin: 30px 38px;
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -32,11 +34,10 @@
   }
 
   &__input {
-    width: 300px;
+    width: 216px;
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
-    margin: 44px 53px auto 464px;
   }
 
   &__input input[type="search"] {

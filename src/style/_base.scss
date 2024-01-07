@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
   margin: 0;
   color: var(--color-primary-text-dark);
   background-color: var(--color-primary-body);
+  min-width: fit-content;
 }
 
 h1,

@@ -1,5 +1,5 @@
-@import "utils/utils";
 @import "utils/variables";
+@import "utils/utils";
 
 @import "components/button";
 @import "components/table";
@@ -10,6 +10,7 @@
 @import "layouts/header";
 @import "layouts/main";
 @import "layouts/menu";
+@import "layouts/mobile-menu";
 @import "layouts/nav";
 @import "layouts/section-user";
 

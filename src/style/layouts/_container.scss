@@ -6,4 +6,11 @@
   border-radius: 20px;
   margin: 77px auto;
   background-color: var(--color-secondary-background);
+
+  @media screen and (max-width: $media-tablet) {
+    margin: 0;
+    border-radius: 0;
+    height: auto;
+  }
+
 }

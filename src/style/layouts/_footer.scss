@@ -1,13 +1,23 @@
 .footer {
-  margin: 39px;
+  margin: 25px 38px 41px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: $media-tablet) {
+    flex-direction: column;
+    gap: 25px;
+  }
 
   &__text {
     color: var(--color-secondary-text-light);
     font-size: 14px;
     letter-spacing: -0.14px;
+    text-wrap: nowrap;
+    padding-right: 42.5%;
+
+    @media screen and (max-width: $media-tablet) {
+      padding: 0;
+    }
   }
 
   &__pagination {
@@ -21,7 +31,8 @@
   &__pagination-item {
     color: var(--color-secondary-pagination-text);
     display: inline-flex;
-    padding: 6px 9px;
+    width: 25px;
+    height: 25px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
