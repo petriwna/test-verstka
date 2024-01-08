@@ -13,6 +13,9 @@
   &__top {
     display: flex;
     gap: 158px;
+    @media screen and (max-width: $media-tablet) {
+      gap: 98px
+    }
   }
 
   &__burger {

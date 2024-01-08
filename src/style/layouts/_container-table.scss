@@ -14,6 +14,7 @@
 
     @media screen and (max-width: $media-tablet) {
       padding: 20px 18px;
+      gap: 0px;
     }
   }
 
@@ -28,6 +29,10 @@
     font-size: 22px;
     font-weight: 600;
     letter-spacing: -0.22px;
+
+    @media screen and (max-width: $media-tablet) {
+      font-size: 18px;
+    }
   }
 
   &__paragraph {
@@ -35,6 +40,10 @@
     font-weight: 400;
     font-size: 14px;
     letter-spacing: -0.14px;
+
+    @media screen and (max-width: $media-tablet) {
+      font-size: 12px;
+    }
   }
 
   &__input {
