@@ -11,6 +11,10 @@
     padding: 31px 48px 26px 38px;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width: $media-tablet) {
+      padding: 20px 18px;
+    }
   }
 
   &__text {
@@ -39,7 +43,8 @@
     white-space: nowrap;
     position: relative;
 
-    @media screen and (min-width: $media-tablet) {
+    @media screen and (max-width: $media-tablet) {
+      text-align: right;
       width: 50%;
     }
   }
