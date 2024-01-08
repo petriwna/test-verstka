@@ -10,6 +10,10 @@
   transform: translateX(-100%);
   transition: transform .3s;
 
+  @media screen and (min-width: $media-tablet) {
+    display: none;
+  }
+
   &.is-open {
     transform: translateX(0);
   }

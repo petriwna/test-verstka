@@ -3,6 +3,10 @@
   align-items: center;
   gap: 8px;
 
+  @media screen and (max-width: $media-tablet) {
+    justify-content: center;
+  }
+
   &__icon {
     fill: var(--color-primary-text-dark);
   }
