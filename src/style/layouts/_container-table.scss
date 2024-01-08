@@ -60,7 +60,7 @@
     border-radius: 10px;
     letter-spacing: -0.12px;
 
-    @media screen and (min-width: $media-tablet) {
+    @media screen and (max-width: $media-tablet) {
       width: 100%;
     }
   }
