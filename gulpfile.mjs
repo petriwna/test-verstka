@@ -7,6 +7,7 @@ import sass from 'gulp-dart-sass';
 import connect from 'gulp-connect';
 import rimraf from 'gulp-rimraf';
 import htmlmin from 'gulp-htmlmin';
+import ghPages from 'gulp-gh-pages';
 
 const paths = {
     styles: {
@@ -82,4 +83,7 @@ gulp.task('reload', (done) => {
     done();
 });
 
-
+gulp.task('deploy', function() {
+    return gulp.src('./dist/**/*')
+        .pipe(ghPages());
+});

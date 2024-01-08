@@ -17,6 +17,10 @@ body {
   color: var(--color-primary-text-dark);
   background-color: var(--color-primary-body);
   min-width: fit-content;
+
+  @media screen and (min-width: $media-tablet) {
+    overflow: hidden;
+  }
 }
 
 h1,

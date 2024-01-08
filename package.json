@@ -8,7 +8,8 @@
     "cmd": "gulp",
     "build": "yarn cmd default",
     "watch": "yarn cmd watch",
-    "clear": "yarn cmd clean"
+    "clear": "yarn cmd clean",
+    "deploy": "gulp deploy"
   },
   "dependencies": {
     "sass": "1.69.7",
@@ -28,6 +29,7 @@
     "gulp-rename": "^2.0.0",
     "gulp-replace": "^1.1.4",
     "gulp-rimraf": "1.0.0",
-    "gulp-sass": "5.1.0"
+    "gulp-sass": "5.1.0",
+    "gulp-gh-pages": "0.5.4"
   }
 }
